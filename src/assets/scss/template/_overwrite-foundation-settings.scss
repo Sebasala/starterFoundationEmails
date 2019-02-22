@@ -32,17 +32,17 @@ $header-font-family: 	$body-font-family;
 $subheader-lineheight: 	2 * $blh;
 
 /* LAYOUT */
-$global-gutter: 			$blh;
-$global-padding: 			$blh;
-$global-margin: 			$blh;
+$global-gutter: 			2 * $blh;
+$global-padding: 			2 * $blh;
+$global-margin: 			2 * $blh;
 $column-padding-bottom: 	$global-padding;
 $block-grid-gutter: 		$global-gutter;
-$header-margin-bottom:		$blh;
-$paragraph-margin-bottom: 	$blh;
-$text-padding: 				$blh;
-$subheader-margin-top: 		$blh;
-$subheader-margin-bottom: 	$blh;
-$hr-margin: 				$blh auto;
+$header-margin-bottom:		2 * $blh;
+$paragraph-margin-bottom: 	2 * $blh;
+$text-padding: 				2 * $blh;
+$subheader-margin-top: 		2 * $blh;
+$subheader-margin-bottom: 	2 * $blh;
+$hr-margin: 				2 * $blh auto;
 $button-padding: (
   tiny: 0.5 * $blh $blh 0.5 * $blh $blh,
   small: 0.5 * $blh $blh 0.5 * $blh $blh,
@@ -53,5 +53,5 @@ $button-margin: 			0 0 $global-margin 0;
 $button-border: 			2px solid $button-background;
 $thumbnail-margin-bottom:	$global-margin;
 $thumbnail-border: 			solid 4px $light-color-1;
-$callout-padding: 			$blh;
+$callout-padding: 			2 * $blh;
 $callout-margin-bottom: 	$global-margin;
