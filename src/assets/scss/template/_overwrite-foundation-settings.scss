@@ -1,0 +1,57 @@
+/* COLORS */
+/* Palette */
+$primary-color: 	$brand-color-1;
+$secondary-color: 	$brand-color-2;
+
+/* Element colors */
+$global-font-color: 	$text-color-1;
+$body-background: 		$bg-color-2;
+$container-background: 	$light-color-1;
+$subheader-color: 		$dark-color-2;
+$anchor-color: 			$link-color-1;
+$anchor-color-visited: 	$anchor-color;
+$anchor-color-hover: 	darken($link-color-1, 10%);
+$anchor-color-active: 	$anchor-color-hover;
+$button-color: 			$light-color-1;
+$button-color-alt: 		$light-color-2;
+$button-background: 	$button-color-1;
+
+/* FONTS */
+/* Font families */
+$body-font-family:		$default-font-family:;
+
+/* Font weights */
+$button-font-weight: 	$bold-fw;
+
+/* VERTICAL RHYTHM */
+$global-font-size: 		$bfs;
+$global-line-height:	2 * $blh;
+$body-line-height: 		$global-line-height;
+$lead-line-height: 		2 * $blh;
+$header-font-family: 	$body-font-family;
+$subheader-lineheight: 	2 * $blh;
+
+/* LAYOUT */
+$global-gutter: 			$blh;
+$global-padding: 			$blh;
+$global-margin: 			$blh;
+$column-padding-bottom: 	$global-padding;
+$block-grid-gutter: 		$global-gutter;
+$header-margin-bottom:		$blh;
+$paragraph-margin-bottom: 	$blh;
+$text-padding: 				$blh;
+$subheader-margin-top: 		$blh;
+$subheader-margin-bottom: 	$blh;
+$hr-margin: 				$blh auto;
+$button-padding: (
+  tiny: 0.5 * $blh $blh 0.5 * $blh $blh,
+  small: 0.5 * $blh $blh 0.5 * $blh $blh,
+  default: $blh 2 * $blh $blh 2 * $blh,
+  large: $blh 2 * $blh $blh 2 * $blh,
+);
+$button-margin: 			0 0 $global-margin 0;
+$button-border: 			2px solid $button-background;
+$thumbnail-margin-bottom:	$global-margin;
+$thumbnail-border: 			solid 4px $light-color-1;
+$callout-padding: 			$blh;
+$callout-margin-bottom: 	$global-margin;

@@ -1,0 +1,14 @@
+/* VERTICAL RHYTHM */
+@mixin type-setting($level, $bfs, $scale) {
+  $font-size: ts-font-size($level, $bfs, $scale);
+  
+  font-size: $font-size;
+  line-height: vr-line-height($font-size, $blh);
+}
+
+/* LAYOUT */
+@mixin centered($max-width) {
+  display: block;
+  max-width: $max-width;
+  margin: 0 auto;
+}

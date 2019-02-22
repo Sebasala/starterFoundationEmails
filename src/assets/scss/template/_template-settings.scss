@@ -1,0 +1,50 @@
+/* COLORS */
+/* Palette */
+$dark-color-1: 		black;
+$dark-color-2: 		gray;
+$light-color-1: 	white;
+$light-color-2: 	gray;
+$brand-color-1: 	blue;
+$brand-color-2: 	red;
+
+/* Element colors */
+$text-color-1:			$dark-color-2;
+$heading-color-1:		$dark-color-1;
+$bg-color-1:			$light-color-1;
+$bg-color-2:			$light-color-2;
+$link-color-1: 			$brand-color-1;
+$link-color-2:			$brand-color-2;
+$button-color-1:		$brand-color-1;
+$button-color-2:		$brand-color-2;
+
+/* Opacities */
+$opacity-1: 0.2;
+$opacity-2: 0.5;
+$opacity-3: 0.8;
+
+
+/* FONTS */
+/* Font families */
+$fonts-url:           	'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700';
+$default-font-family:	'Open Sans', sans-serif;
+
+/* Font weights */
+$normal-fw: 400;
+$bold-fw:   700;
+$light-fw:	300;
+/* Override foundation-settings */
+$button-font-weight: 	$bold-fw;
+
+/* VERTICAL RHYTHM */
+$bfs:     				16px;
+$spacing: 				3;
+$scale:   				1.25;
+$blh:     				$bfs * $spacing;
+
+/* LAYOUT */
+$text-max-width: 			$bfs * 30;
+
+/* BREAK POINTS */
+$global-breakpoint: $global-width + $global-gutter;
+/* Set break-point equal to foundation break-point */
+$bp-1: 				$global-breakpoint;
