@@ -1,19 +1,20 @@
 /* COLORS */
 /* Palette */
-$dark-color-1: 		black;
-$dark-color-2: 		gray;
-$light-color-1: 	white;
-$light-color-2: 	gray;
-$brand-color-1: 	blue;
-$brand-color-2: 	red;
+$dark-color-1: 		#1A1A1A;
+$dark-color-2: 		#666666;
+$light-color-1: 	#F2F2F2;
+$light-color-2: 	#CCCCCC;
+$brand-color-1: 	#4141B0;
+$brand-color-2: 	#E82020;
 
 /* Element colors */
 $text-color-1:			$dark-color-2;
+$text-color-2:			$light-color-1;
 $heading-color-1:		$dark-color-1;
-$bg-color-1:			$light-color-1;
-$bg-color-2:			$light-color-2;
-$link-color-1: 			$brand-color-1;
-$link-color-2:			$brand-color-2;
+$bg-color-1:			$light-color-2;
+$bg-color-2:			$light-color-1;
+$link-color-1: 			$brand-color-2;
+$link-color-2:			$brand-color-1;
 $button-color-1:		$brand-color-1;
 $button-color-2:		$brand-color-2;
 
@@ -25,19 +26,18 @@ $opacity-3: 0.8;
 
 /* FONTS */
 /* Font families */
-$fonts-url:           	'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700';
-$default-font-family:	'Open Sans', sans-serif;
+$fonts-url:           	'https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700';
+$default-font-family:	'Lato', sans-serif;
+$headings-font-family: 	'Roboto', sans-serif;
 
 /* Font weights */
 $normal-fw: 400;
 $bold-fw:   700;
 $light-fw:	300;
-/* Override foundation-settings */
-$button-font-weight: 	$bold-fw;
 
 /* VERTICAL RHYTHM */
 $bfs:     				16px;
-$spacing: 				3;
+$spacing: 				0.75;
 $scale:   				1.25;
 $blh:     				$bfs * $spacing;
 

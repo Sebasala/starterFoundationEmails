@@ -5,15 +5,15 @@ $secondary-color: 	$brand-color-2;
 
 /* Element colors */
 $global-font-color: 	$text-color-1;
-$body-background: 		$bg-color-2;
-$container-background: 	$light-color-1;
-$subheader-color: 		$dark-color-2;
+$body-background: 		$bg-color-1;
+$container-background: 	$bg-color-2;
+$subheader-color: 		$text-color-2;
 $anchor-color: 			$link-color-1;
 $anchor-color-visited: 	$anchor-color;
 $anchor-color-hover: 	darken($link-color-1, 10%);
 $anchor-color-active: 	$anchor-color-hover;
-$button-color: 			$light-color-1;
-$button-color-alt: 		$light-color-2;
+$button-color: 			$text-color-2;
+$button-color-alt: 		$text-color-2;
 $button-background: 	$button-color-1;
 
 /* FONTS */
@@ -46,7 +46,7 @@ $hr-margin: 				$blh auto;
 $button-padding: (
   tiny: 0.5 * $blh $blh 0.5 * $blh $blh,
   small: 0.5 * $blh $blh 0.5 * $blh $blh,
-  default: $blh 2 * $blh $blh 2 * $blh,
+  default: 0.5 * $blh $blh 0.5 * $blh $blh,
   large: $blh 2 * $blh $blh 2 * $blh,
 );
 $button-margin: 			0 0 $global-margin 0;
