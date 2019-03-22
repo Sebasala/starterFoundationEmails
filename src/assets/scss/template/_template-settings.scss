@@ -36,13 +36,13 @@ $bold-fw:   700;
 $light-fw:	300;
 
 /* VERTICAL RHYTHM */
-$bfs:     				16px;
-$spacing: 				0.75;
-$scale:   				1.25;
-$blh:     				$bfs * $spacing;
+$bfs:     	16px;
+$spacing: 	0.75;
+$scale:   	1.25;
+$blh:     	$bfs * $spacing;
 
 /* LAYOUT */
-$text-max-width: 			$bfs * 30;
+$text-max-width: $bfs * 30;
 
 /* BREAK POINTS */
 $global-breakpoint: $global-width + $global-gutter;
