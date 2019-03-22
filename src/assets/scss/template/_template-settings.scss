@@ -45,6 +45,4 @@ $blh:     	$bfs * $spacing;
 $text-max-width: $bfs * 30;
 
 /* BREAK POINTS */
-$global-breakpoint: $global-width + $global-gutter;
-/* Set break-point equal to foundation break-point */
-$bp-1: 				$global-breakpoint;
+$bp-1:  500px;
