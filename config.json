@@ -16,15 +16,17 @@
   },
   "mail": {
     "to": [
-      "example@domain.com"
+      "ensuramerica@gmail.com",
+      "sebastian.salazar@ariadnacg.com",
+      "ensuramerica@hotmail.com"
     ],
-    "from": "Company name <info@company.com",
+    "from": "Sebastian Salazar <ensuramerica@gmail.com",
     "smtp": {
       "auth": {
-        "user": "example@domain.com",
-        "pass": "12345678"
+        "user": "ensuramerica@gmail.com",
+        "pass": "kdlrayshqhenoowa"
       },
-      "host": "smtp.domain.com",
+      "host": "smtp.gmail.com",
       "secureConnection": true,
       "port": 465
     }
