@@ -1,7 +1,22 @@
 <container>
 	<spacer size="20"></spacer>
-	{{>heading}}
-	{{>paragraphs}}
-	{{>buttons}}
+	{{>heading
+		text="Hello foundation for emails"
+	}}
+	{{>paragraph
+		text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, ea fuga? Illo omnis in nostrum perspiciatis fugit, labore molestiae dolore a magnam repudiandae, cupiditate reprehenderit ratione, enim alias doloremque eaque."
+	}}
+	{{>button-left
+		value="Left"
+	}}
+	{{>button-center
+		value="Center"
+	}}
+	{{>button-rounded-left
+		value="Rounded left"
+	}}
+	{{>button-rounded-center
+		value="Rounded center"
+	}}
 	<spacer size="20"></spacer>
 </container>
