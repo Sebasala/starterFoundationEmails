@@ -2,3 +2,17 @@
 * {
 	box-sizing: border-box;
 }
+
+.img-center {
+	img {
+		display: inline;
+	}
+}
+
+.opt-out {
+	p {
+		text-align: center;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+}

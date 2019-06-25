@@ -1,22 +1,47 @@
+<div class="preheader">Preheader</div>
 <container>
 	<spacer size="20"></spacer>
-	{{>heading
+	{{>h1
+		class="title"
 		text="Hello foundation for emails"
 	}}
 	{{>paragraph
-		text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, ea fuga? Illo omnis in nostrum perspiciatis fugit, labore molestiae dolore a magnam repudiandae, cupiditate reprehenderit ratione, enim alias doloremque eaque."
+		class="paragraph"
+		text1="Lorem ipsum dolor sit,"
+		strong1="amet consectetur"
+		text2="adipisicing elit. Doloremque, ea fuga? Illo omnis in nostrum perspiciatis fugit, labore molestiae dolore a magnam repudiandae, cupiditate reprehenderit ratione, enim alias"
+		strong2="doloremque eaque."
 	}}
 	{{>button-left
-		value="Left"
+		class="button"
+		href="#"
+		value="Rounded left"
+		bg-color="blue"
+		border-color="blue"
+		color="white"
+		width="200px"
+		height="48px"
+		border-radius="24px"
 	}}
 	{{>button-center
-		value="Center"
-	}}
-	{{>button-rounded-left
-		value="Rounded left"
-	}}
-	{{>button-rounded-center
+		class="button"
+		href="#"
 		value="Rounded center"
+		bg-color="blue"
+		border-color="blue"
+		color="white"
+		width="200px"
+		height="48px"
+		border-radius="24px"
+	}}
+	{{>img-center
+		img="https://d1cr57qij2cwzh.cloudfront.net/wp-content/uploads/2018/11/EmailTesting_Icon_Aqua.png"
+		alt="Email icon"
+		width="401"
+		height="400"
+		href="#"
+		class="img-center"
 	}}
 	<spacer size="20"></spacer>
 </container>
+{{>opt-out}}
